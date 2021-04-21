@@ -1,0 +1,18 @@
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    cout<<"welcome to finding the max no in array "<<endl;
+    int arr[5]={1,5,7,0,9};
+    int max=arr[0];
+    for (int i=1;i<5;i++)
+    {
+        if (max<arr[i])
+        {
+            max=arr[i];
+        }
+    }
+    cout<<"the maximum element in the array is "<<max<<endl;
